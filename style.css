@@ -1,0 +1,125 @@
+/* Estilos generales para todo el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif; /* Fuente y tipo de letra para todo el cuerpo */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el relleno predeterminado */
+    background-color: #f4f4f4; /* Color de fondo del cuerpo */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #4CAF50; /* Color de fondo del encabezado */
+    color: white; /* Color del texto en el encabezado */
+    padding: 1rem 0; /* Relleno superior e inferior del encabezado */
+    text-align: center; /* Alineación del texto centrada */
+    position: fixed; /* Posición fija para que el encabezado se mantenga en la parte superior */
+    width: 100%; /* Ancho completo del encabezado */
+    top: 0; /* Alineación en la parte superior */
+    z-index: 1000; /* Capa z para asegurarse de que esté por encima del contenido */
+}
+
+/* Estilos para la lista no ordenada dentro de la barra de navegación */
+nav ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado */
+    display: flex; /* Usa flexbox para distribuir los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+}
+
+/* Estilos para los elementos de la lista dentro de la barra de navegación */
+nav ul li {
+    margin: 0 10px; /* Márgenes entre los elementos de la lista */
+}
+
+nav ul li a {
+    color: white; /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado predeterminado del enlace */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 80px 20px 20px 20px; /* Relleno del contenido principal */
+}
+
+/* Estilos para cada sección */
+.section {
+    margin-bottom: 50px; /* Margen inferior entre secciones */
+    padding: 20px; /* Relleno dentro de cada sección */
+    background-color: white; /* Color de fondo de cada sección */
+    border-radius: 10px; /* Bordes redondeados para cada sección */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de cada sección */
+}
+
+/* Estilos para la galería de imágenes */
+.gallery {
+    display: flex; /* Usa flexbox para la disposición de las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se envuelvan si no caben en una línea */
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centra las imágenes horizontalmente */
+}
+
+.gallery img {
+    max-width: 100%; /* Ancho máximo de las imágenes */
+    max-height: 200px; /* Altura máxima de las imágenes */
+    width: auto; /* Ancho automático para mantener la proporción */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor manteniendo la relación de aspecto */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333; /* Color de fondo del pie de página */
+    color: white; /* Color del texto en el pie de página */
+    text-align: center; /* Alineación del texto centrada */
+    padding: 10px 0; /* Relleno superior e inferior del pie de página */
+    position: relative; /* Posición relativa para alinear correctamente con el contenido */
+    width: 100%; /* Ancho completo del pie de página */
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex; /* Usa flexbox para el diseño del formulario */
+    flex-direction: column; /* Alinea los elementos del formulario en columna */
+}
+
+form label {
+    margin-top: 10px; /* Márgenes superiores para las etiquetas del formulario */
+}
+
+form input, form textarea {
+    padding: 10px; /* Relleno de los campos de entrada */
+    margin-top: 5px; /* Márgenes superiores para los campos de entrada */
+    border: 1px solid #ccc; /* Borde delgada con color gris claro */
+    border-radius: 5px; /* Bordes redondeados para los campos de entrada */
+}
+
+form button {
+    margin-top: 10px; /* Márgenes superiores para el botón del formulario */
+    padding: 10px; /* Relleno del botón */
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde alrededor del botón */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+form button:hover {
+    background-color: #45a049; /* Cambia el color de fondo del botón al pasar el cursor */
+}
+
+/* Estilos para los botones generales */
+.button {
+    display: inline-block; /* Muestra el botón como un elemento en línea con bloque */
+    padding: 10px 20px; /* Relleno del botón */
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    text-decoration: none; /* Sin subrayado para el texto del botón */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    margin-top: 10px; /* Márgenes superiores para el botón */
+}
+
+.button:hover {
+    background-color: #45a049; /* Cambia el color de fondo del botón al pasar el cursor */
+}

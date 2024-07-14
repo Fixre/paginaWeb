@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Eco-Vital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <h1>Eco-Vital</h1>
+        <!-- Barra de navegación -->
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#team">Equipo</a></li>
+                <li><a href="#gallery">Mision</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Sección de Inicio -->
+        <section id="home" class="section">
+            <h2>Bienvenidos a Eco-Vital</h2>
+            <p>Tu aliado en la recolección de residuos.</p>
+        </section>
+
+        <!-- Sección Acerca de Nosotros -->
+        <section id="about" class="section">
+            <h2>Acerca de Nosotros</h2>
+            <p>Somos una empresa comprometida con el medio ambiente y la recolección responsable de residuos. Desde nuestra fundación en 2020, hemos trabajado incansablemente para promover prácticas sostenibles y ayudar a comunidades a gestionar sus residuos de manera eficiente.</p>
+        </section>
+
+        <!-- Sección Nuestros Servicios -->
+        <section id="services" class="section">
+            <h2>Nuestros Servicios</h2>
+            <ul>
+                <li>Recolección de residuos orgánicos</li>
+                <li>Recolección de residuos reciclables</li>
+                <li>Asesoría en gestión de residuos</li>
+                <li>Educación y concienciación ambiental</li>
+                <li>Proyectos de compostaje comunitario</li>
+            </ul>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section id="projects" class="section">
+            <h2>Proyectos</h2>
+            <p>Conoce algunos de nuestros proyectos destacados:</p>
+            <ul>
+                <li><strong>Proyecto Verde</strong>: Implementación de compostaje en comunidades rurales.</li>
+                <li><strong>Recicla y Gana</strong>: Programa de incentivos para el reciclaje en zonas urbanas.</li>
+                <li><strong>Escuelas Sostenibles</strong>: Iniciativa de educación ambiental en escuelas.</li>
+            </ul>
+        </section>
+
+        <!-- Sección Nuestro Equipo -->
+        <section id="team" class="section">
+            <h2>Nuestro Equipo</h2>
+            <p>Contamos con un equipo apasionado y comprometido con el medio ambiente:</p>
+            <ul>
+                <li><strong>   Kevin Huamani Ripas</strong>: Director Ejecutivo</li>
+                <li><strong> Yajahira Inga Ticona</strong>: Coordinadora de Proyectos</li>
+                <li><strong>Mery Vera Rojas</strong>: Especialista en Educación Ambiental</li>
+                <li><strong>Bryan Mattias Sánchez</strong>: Gerente de Comunicación</li>
+            </ul>
+        </section>
+
+        <!-- Sección Galería -->
+        <section id="gallery" class="section">
+            <h2>Mision</h2>
+            <div class="gallery">
+                <!-- Elementos de la galería -->
+                <div class="gallery-item">
+                    <img src="imagen.jpg" alt="Imagen 1">
+                    <p>Recolección de Residuos Orgánicos</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="imagen2.jpg" alt="Imagen 2">
+                    <p>Reciclaje</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="imagen3.jpg" alt="Imagen 3">
+                    <p>Limpieza Comunitaria</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="imagen4.jpg" alt="Imagen 4">
+                    <p>Educación Ambiental</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contacto -->
+        <section id="contact" class="section">
+            <h2>Contacto</h2>
+            <!-- Formulario de contacto -->
+            <form id="contactForm" method="POST" action="response.html">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <!-- Mensaje de respuesta oculto -->
+            <p id="responseMessage" class="hidden">Mensaje enviado. Gracias por contactarnos.</p>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Eco-Vital. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Script JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
